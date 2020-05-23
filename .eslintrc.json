@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb"],
+  "plugins": ["@typescript-eslint", "react", "jest"],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "import/extensions": 0,
+    "import/no-unresolved": 0,
+    "react/jsx-filename-extension": [1, {
+      "extensions": [
+        ".jsx",
+        ".tsx"
+      ]
+    }],
+    "no-unused-vars": 0,
+    "class-methods-use-this": 0,
+    "max-len": 0,
+    "@typescript-eslint/no-unused-vars-experimental": 2,
+    "react/destructuring-assignment": 0
+  },
+  "env": {
+    "jest/globals": true
+  }
+}
